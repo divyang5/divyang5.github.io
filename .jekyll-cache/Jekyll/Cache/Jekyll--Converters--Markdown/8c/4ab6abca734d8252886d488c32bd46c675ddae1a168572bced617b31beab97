@@ -1,0 +1,69 @@
+I"�	<!-- ---
+layout: post
+title: Welcome to Jekyll!
+subheading: hello world!
+author: Jeffrey
+categories: jekyll
+banner: https://bit.ly/32PAjtM
+tags: jekyll theme yat
+sidebar: []
+--- -->
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="..\..\_site\assets\css\desktop.css" class="css" />
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="phone.css" class="css" />
+</head>
+<body>
+    <div class="container">
+        <h1> Get More Details</h1>
+        <form action="" method="post">
+            <div class="box">
+                <input type="email" placeholder="Email*" /> 
+             </div>
+             <div class="box">
+                 <input type="phone" placeholder="Mobile Number*" />
+             </div>
+             <div class="box">
+                <select name="city">select-city
+                    <option value="">Select City*</option>
+                    <option value="A'bad">Ahemedabad</option>
+                       <option value="mumbai">Mumbai</option>
+                       <option value="delhi">Delhi</option>
+                       <option value="bengluru">Bengluru</option>
+                </select>
+            </div>
+            <div class="box">
+                <select name="language">
+                    <option value="">Select Language*</option>
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="gujarati">Gujarati</option>
+                    <option value="tamil">Tamli</option>
+                </select>
+            </div>
+            <div class="center">
+                <p class="dark">
+                    <!-- <del style='color:red;text-decoration:line-through'> -->
+                       <span class="strikethrough" style="color: black;">  ₹2000 </span>
+                    <span class="darker"> ₹999 +</span>
+                    <a href="#">Govt Fees</a>
+                </p>
+                <p class="light">
+                    Limited Period Offer
+                </p>
+            </div>
+           
+            <button class="btn">
+                Register my Company
+            </button>
+        
+        </form>
+    </div>
+</body>
+</html>
+:ET
